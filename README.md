@@ -6,7 +6,6 @@
 * [How To Run](#how-to-run)
 * [JSON Shape Chosen](#json-shape-chosen)
 * [The Messy Bits and Trade-Offs](#the-messy-bits-and-trade-offs)
-* [With Another Two Hours](#with-another-two-hours)
 
 ---
 
@@ -70,15 +69,3 @@ Used the `openpyxl` engine to extract calculated results rather than raw Excel s
 ### 4. Merged Cells
 Normalized merged headers into distinct, queryable keys. Ensures readability for LLM.
 - **Trade-off**: Trades human readable grouping for machine readability.
-
----
-
-## With Another Two Hours
-* **Hierarchical Key Mapping**: 
-Refactor header logic to capture merged cells (like *Phone Performance*). This transforms generic keys ( `Missed_Calls`) into more descriptive paths (`Phone_Performance_Missed_Calls`).
-
-* **Target Benchmarking**: 
-Isolate the "Target" values from Row 6 into a separate reference object to enable "Goal vs. Actual" comparisons in a dashboard.
-
-* **Data Sanitizer**: 
-Implement a script to auto flag inputs in unnamed columns and suggest correct column placement based on proximity to headers.
