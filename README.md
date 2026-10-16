@@ -2,6 +2,10 @@
 
 ---
 
+![Excel to JSON Converter Demo](images/preview.png)
+
+---
+
 ## Table of Contents
 * [How To Run](#how-to-run)
 * [JSON Shape Chosen](#json-shape-chosen)
