@@ -64,7 +64,7 @@ An Array of Objects (`orient='records'`) provides an intuitive experience for de
 ---
 
 ## The Messy Bits and Trade-Offs
-My strategy focused on maintaining total data integrity.
+My strategy focused on maintaining total data integrity of `Scoreboard Test.xslx`.
 
 ### 1. Static Metadata vs. Time-Series
 Intentionally stripped values in Rows 3–7 (*Focus, Source etc.*).
