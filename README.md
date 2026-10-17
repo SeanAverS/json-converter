@@ -23,23 +23,24 @@
     ```bash
     py -m pip install -r requirements.txt
     ```
-2.  **Run Converter Script:**
-- **macOS:**
-      ```bash
-      # Run with sample file
-      python3 convert.py
-      
-      # Or run with a custom file path
-      python3 convert.py path/to/your_file.xlsx
-      ```
-- **Windows:**
-      ```bash
-      # Run with sample file
-      py convert.py
-      
-      # Or run with a custom file path
-      py convert.py path\to\your_file.xlsx
-      ```
+2. **Run Converter Script:**
+   - **macOS:**
+     ```bash
+     # Run with sample file
+     python3 convert.py
+
+     # Or run with a custom file path
+     python3 convert.py path/to/your_file.xlsx
+     ```
+
+   - **Windows:**
+     ```bash
+     # Run with sample file
+     py convert.py
+
+     # Or run with a custom file path
+     py convert.py path\to\your_file.xlsx
+     ```
 3.  **Result:**
     Check  ``output.json`` for cleaned data.
 
