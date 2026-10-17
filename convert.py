@@ -1,9 +1,14 @@
 import pandas as pd
 import json
 import os
+import sys
 
 def run_conversion():
-    file_path = "data/Scoreboard Test.xlsx"
+    # Use custom file path if provided in terminal, otherwise use sample file
+    if len(sys.argv) > 1:
+        file_path = sys.argv[1]
+    else:
+        file_path = "data/Scoreboard Test.xlsx"
     
     if not os.path.exists(file_path):
         print(f"Cannot find {file_path}.")
